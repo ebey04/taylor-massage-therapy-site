@@ -1,8 +1,3 @@
-# Taylor Massage Therapy (Salem, MA)
-Herbal, intuitive massage therapy website. Built with HTML/CSS.
-
-- Live site: https://ebey04.github.io/taylor-massage-therapy-site/
-- Features: Hero with CTA, quote section, testimonials, footer, accessible color palette.
 # Taylor Massage (WIP)
 
 A simple, accessible small-business website I’m building to practice real-world front‑end skills.
