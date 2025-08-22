@@ -17,13 +17,21 @@ body {
   font-size: 1rem;   /* stable base size */
   line-height: 1.5;  /* improve readability */
   font-family: sans-serif; /* set your preferred font */
-  color: #222;       /* neutral default text color */
+  color: #384852;       /* neutral default text color */
 }
 
 /* Headings – scale fluidly with clamp() */
 h1 {
-  font-size: clamp(1.5rem, 4vw, 3rem);
-  line-height: 1.2; /* tighter for big display text */
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
+  font-size: clamp(1.25rem, 1.5vw, 2rem);
+  line-height: 1.2;
+  color: #384852; 
+  text-shadow: 0 0 0.2px #F7EEDD, 0 0 0.2px #F7EEDD;
+}
+
+h1::before{
+  content: "🌿 "
 }
 
 h2 {

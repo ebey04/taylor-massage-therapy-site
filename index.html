@@ -20,23 +20,30 @@
   <meta property="og:url" content="https://example.com/" />
   <meta property="og:type" content="website" />
 
+    <!-- Example: Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
   <!-- External CSS -->
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/typography.css">
 
   <!-- Font or Icon Libraries (optional) -->
-  <!-- Example: Google Fonts -->
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> -->
+
+
+
 
 </head>
 <body>
-<a href="#main" class="sr-only">Skip to main content</a>
+<a href="#main" class="skip-link">Skip to main content</a>
 
   <!-- Page Content Starts Here -->
   <header>
     <h1>Taylor Massage Therapy</h1> <!-- Can replace with logo-->
-    <nav aria-label="Main navigation"><ul>
-        <li><a href="index.html">Home</a></li>
+    <nav aria-label="Main navigation" id="navbar"><ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="testimonials.html">Testimonials</a></li>
@@ -84,7 +91,7 @@
         <address>123 Essex St.<br> Salem, MA<br>
         <a href="tel:14127598749">(412)759-8749</a><br>
         <a href="mailto:taylor@massage.com">taylor@massage.com</a></address>
-         <div class="social-media"><a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+         <div class="social-media"><a href="https://www.instagram.com/yourprofile" width="200" height="200" target="_blank" rel="noopener noreferrer">
     <img src="assets/img/instagram.svg" alt="Instagram icon">
   </a></div>
 
