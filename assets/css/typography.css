@@ -22,9 +22,10 @@ body {
 
 /* Headings – scale fluidly with clamp() */
 h1 {
-  font-family: "Exo", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 600;
   font-size: clamp(1.25rem, 1.5vw, 2rem);
+  letter-spacing: .25rem;
   line-height: 1.2;
   color: #384852; 
   text-shadow: 0 0 0.2px #F7EEDD, 0 0 0.2px #F7EEDD;

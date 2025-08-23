@@ -4,8 +4,9 @@
    01. Base
    ========================================================================== */
 * { box-sizing: border-box; }
+
 html{
-   background-color: #FAF3E0;
+   background-color: #FDFCF9;
 }
 
 a{
@@ -54,6 +55,8 @@ a:hover, a:focus-visible{
 /* ==========================================================================
    03. Layout
    ========================================================================== */
+body { margin: 0; }   
+
 main { 
    max-width: 72ch; 
    margin-inline: auto; 
@@ -79,11 +82,55 @@ header{
 
 .hero{
    border-radius: 10px;
-   border:2px black solid;
+   border:1px black solid;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 10rem;
    width:100%;
    height:fit-content;
-
+   margin: 0;
+   overflow: hidden;
+   padding: 1rem 1rem 1rem 5rem;
 }
+
+.hero-text {
+  display: flex;
+  flex-direction: column; /* stack h2 and button */
+   text-align: left;
+  align-items: flex-start;
+  gap: 1rem;              /* space between heading and button */
+  font-size: larger;
+}
+
+.hero-text h2 {
+  margin: 0.5rem 0;   /* tighten top + bottom margin */
+}
+
+.hero-text p{
+   font-style: italic;
+   margin: 0.25rem 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #8BC08C;     /* your green */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  border:2px black solid;
+  box-shadow: -5px 5px 10px 2px #384852 ;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  background: #6da86e;     /* darker green on hover */
+}
+
+
+
 /* ==========================================================================
    04. Type
    ========================================================================== */
