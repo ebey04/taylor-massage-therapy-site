@@ -58,7 +58,6 @@ a:hover, a:focus-visible{
 body { margin: 0; }   
 
 main { 
-   max-width: 72ch; 
    margin-inline: auto; 
    padding-inline: 1rem; 
 }
@@ -89,7 +88,7 @@ header{
    gap: 10rem;
    width:100%;
    height:fit-content;
-   margin: 0;
+   margin: 1rem auto;
    overflow: hidden;
    padding: 1rem 1rem 1rem 5rem;
 }
@@ -129,6 +128,34 @@ header{
   background: #6da86e;     /* darker green on hover */
 }
 
+
+.quote{
+  background-image: url("../img/quote-img.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 4rem 2rem;
+  width: 100%;
+  margin-bottom: 2rem;
+ 
+}
+
+.quote blockquote{  
+  max-width: 60ch;
+  margin: 0 auto;                 /* centers the block */
+  padding: 1rem 1.25rem;
+  border-radius: .5rem;
+  background: rgba(31,30,30,.4);  /* smoky panel */
+  font-family: "Quicksand", sans-serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  letter-spacing: .02em;  
+  font-weight: 600;        
+  text-align: center;            
+  backdrop-filter: blur(8px);         /* blurs right behind text only */
+  -webkit-backdrop-filter: blur(8px); /* Safari */
+  
+}
 
 
 /* ==========================================================================
