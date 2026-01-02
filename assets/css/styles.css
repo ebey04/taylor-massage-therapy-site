@@ -69,6 +69,7 @@ header{
    justify-content: flex-start;
    gap: 2rem;
    padding: 0 2rem;
+   height: 7.5rem;
 }
 
 #navbar ul{
