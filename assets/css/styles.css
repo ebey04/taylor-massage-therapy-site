@@ -63,7 +63,7 @@ main {
 }
 
 header{
-   background-color:#8BC08C ;
+   background-color:#627E7A ;
    display: flex;
    align-items: center;
    justify-content: flex-start;
@@ -113,20 +113,23 @@ header{
 }
 
 .btn {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background: #8BC08C;     /* your green */
-  color: #fff;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: 600;
-  border:2px black solid;
-  box-shadow: -5px 5px 10px 2px #384852 ;
+   display: inline-block;
+   padding: 0.75rem 1.5rem;
+   background: #627E7A;    
+   color: white;
+   border: none;
+   border-radius: 6px;
+   font-weight: 600;
+   box-shadow: -3px 3px 8px 1px grey ;
+   cursor: pointer;
 }
 
 .btn:hover,
 .btn:focus-visible {
-  background: #6da86e;     /* darker green on hover */
+  background: #5A7A76;    
+  transform: translateY(-5px);
+  box-shadow: -5px 5px 10px 2px #384852;
+  border: none;
 }
 
 
